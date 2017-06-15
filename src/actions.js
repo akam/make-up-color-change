@@ -25,14 +25,14 @@ export function getRandomMakeup() {
   }
 }
 
-export function getRandomColor(data){
-  debugger
-  return function(dispatch){
-    dispatch(getColor(data));
-  }
-}
+// export function getRandomColor(data){
+//   debugger
+//   return function(dispatch){
+//     dispatch(getColor(data));
+//   }
+// }
 
-export function getColor(data){
+export function getRandomColor(data){
   debugger
   if(JSON.stringify(data.product_colors) !== JSON.stringify([])){
     debugger
